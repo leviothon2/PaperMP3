@@ -13,6 +13,8 @@ USB-C - Charging, mass storage, or USB DAC
 Runtime - ~35 h estimated (see below)
 
 # Project Overview
+**BOM** Estimated cost (if you already have a 3d printer) is around £50.
+
 **Audio.** The STM32U575 feeds the CS43131 over I2S. The only crystal (that will be replaced with an oscilator) in the system is for the DAC and is really annoying to source (22.5792 MHz), but it allows the audio clock to be set by the DAC so there is no MCU PLL jitter on the signal path. Both the 44.1 kHz and 48 kHz families are generated natively, so there's no resampling for most files. (macro shots make my soldering look terrible)
 ![stm32.jpg](https://image.easyeda.com/oshwhub/pullImage/396b406154bb4bfd9db1fc60ce3c397c.jpg)
 
