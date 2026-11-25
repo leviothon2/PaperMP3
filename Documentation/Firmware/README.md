@@ -1,6 +1,6 @@
 **LOGIC VOLTAGE IS 1.8V for V2 PCB's USE A LEVEL SHIFTER OR AN STLINK THAT SUPPORTS 1.8V.** SWD pins are under the display. To flash over SWD use a .hex with STM32CubeProgrammer. 
 
-**AI usage** Decliration that OPUS 5.5 and Fable 5.2 was used to write the firmware.
+**AI usage** Declaration that OPUS 5.5 and Fable 5.2 was used to write the firmware.
 
 **Quick settings** - This is accessed when playing a song by either pressing both skip and reverse at the same time or holding the play button (see controls below). Here you can set a *sleep timer*, loop the current song and see what is up next to skip forwards to play it. 
 
