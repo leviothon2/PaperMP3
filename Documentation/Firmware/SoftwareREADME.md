@@ -1,5 +1,7 @@
 **LOGIC VOLTAGE IS 1.8V for V2 PCB's USE A LEVEL SHIFTER OR AN STLINK THAT SUPPORTS 1.8V.** SWD pins are under the display. To flash over SWD use a .hex with STM32CubeProgrammer. 
 
+**AI usage** Decliration that OPUS 5.5 and Fable 5.2 was used to write the firmware.
+
 **Quick settings** - This is accessed when playing a song by either pressing both skip and reverse at the same time or holding the play button (see controls below). Here you can set a *sleep timer*, loop the current song and see what is up next to skip forwards to play it. 
 
 **Display** - The GUI is designed specifically around the capabilities of an EINK display, the progress bar and battery icon only redraw the specific pixel that changes from one state to another. The elapsed-time text updates on those same ticks instead of every second but is intentionally removed because of how it ghosts. When playing songs the display does a full refresh to prioritise album art quality.
