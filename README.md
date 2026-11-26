@@ -3,6 +3,8 @@ Low-power e-ink (ipod like) MP3 player with an STM32U575, CS43131 hi-fi DAC, swa
 # Project introduction
 A compact, low-power portable E-INK music player built around a "hi-fi" DAC. It is designed for long battery life (aprox 35 hours of playtime), clean audio and an ultra low power display that stays readable. It runs on a user-replaceable camera battery, so a spare battery can be swapped in and a worn one replaced without tools. 
 
+![shot with hand.jpg](https://image.easyeda.com/oshwhub/pullImage/2ea9d658542d4ed9aa4715cf3eacf897.jpg)
+
 MCU -	STM32U575RGT6 (Cortex-M33), running at 1.8 V
 Audio - CS43131 DAC + Class-H headphone amp, 3.5 mm jack
 Display - 1.54" 200x200 e-paper
