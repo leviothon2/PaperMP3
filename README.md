@@ -5,6 +5,7 @@ A compact, low-power portable E-INK music player built around a "hi-fi" DAC. It 
 
 ![shot with hand.jpg](https://image.easyeda.com/oshwhub/pullImage/2ea9d658542d4ed9aa4715cf3eacf897.jpg)
 (Funky colours because I ran out of filiment)
+
 MCU -	STM32U575RGT6 (Cortex-M33), running at 1.8 V
 Audio - CS43131 DAC + Class-H headphone amp, 3.5 mm jack
 Display - 1.54" 200x200 e-paper
@@ -38,8 +39,8 @@ Runtime - ~35 h estimated (see below)
 
 ![render_19_usb_prompt.png](https://image.easyeda.com/oshwhub/pullImage/63178cb9e0df4c2eaa75c1a33af549ab.png)
 
-# Software - More details in Software.md
-**Code written with AI (Opus 5.5 and Fable 5.2).** Im working with a friend to get human written firmware that is written indipendently (chinese wall technique), but for now for testing hardware functionality and new features, its been working really well.
+# Software - More details in Documentation/Firmware/README.md
+**Code written with AI (Opus 5.5 and Fable 5.2).** Im working with a friend to get human written firmware that is written indipendently, but for now for testing hardware functionality and new features, its been working really well.
 
 **Formats** - Built to play DSD (DSD64 and maybe DSD128 as DoP), FLAC, WAV, Opus, MP3 and AAC/M4A, so most files should work. Only M4A and FLAC have been tested, but I'll update this post as I test more.
 
